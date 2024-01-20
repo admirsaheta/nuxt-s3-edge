@@ -1,7 +1,7 @@
 import { parseURL, withoutTrailingSlash } from 'ufo'
 import { readMultipartFormData, createError } from 'h3'
 import type { H3Event } from 'h3'
-import type { S3ObjectMetadata } from '../../../types'
+import type { S3ObjectMetadata } from '../../types'
 
 function normalizeKey (key: string) {
   return key.replace(/\//g, ':')
