@@ -1,8 +1,8 @@
 {
-  "name": "my-module",
+  "name": "@praella/nuxt3-edge-s3",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "AWS S3 Module preconfigured to be used on Edge servers",
+  "repository": "",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -28,15 +28,24 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.9.3"
+    "@nuxt/kit": "^3.9.3",
+    "aws4fetch": "^1.0.17",
+    "defu": "^6.1.4",
+    "jstoxml": "^3.2.10",
+    "mime": "^4.0.1",
+    "uuid": "^9.0.1",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@types/node": "^20.11.5",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.5",
     "@nuxt/schema": "^3.9.3",
     "@nuxt/test-utils": "^3.9.0",
+    "@types/jstoxml": "^2.0.4",
+    "@types/node": "^20.11.5",
+    "@types/uuid": "^9.0.7",
+    "@types/xml2js": "^0.4.14",
     "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
     "nuxt": "^3.9.3",
